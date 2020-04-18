@@ -1,0 +1,28 @@
+db.sqlite3
+__pycache__
+*.swp
+/venv
+/.vscode
+
+# venv
+# *.pyc
+# staticfiles
+# .env
+# db.sqlite3
+
+# /dist
+# /.tmp
+# /staticfiles
+# src/staticfiles
+# *.pyc
+# venv
+# staticfiles
+# *.db
+# extrato.txt
+# /env
+# *.sqlite3
+# finance.db
+# env_35
+# *.db
+# start-finance.sh
+.env
