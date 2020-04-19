@@ -9,7 +9,8 @@
 
 
 # minikube start --alsologtostderr -v=8
-minikube delete && minikube start --vm-driver=hyperkit
+minikube delete && \
+minikube start --vm-driver hyperkit --cpus 4 --memory 8192
 
 #addons
 minikube addons enable ingress

@@ -1,11 +1,16 @@
 
-## config Kubernetes clusters to app with sample CRUD wallet
+## run Apache Airflow on Kubernetes clusters to app with sample CRUD wallet
     minikube
     django
     postgres
 
+## test Airflow
+    curl $(minikube service nginx-svc --url)/health
+    [ "$1" = "webserver" ] || [ "$1" = "worker" ] || [ "$1" = "scheduler" ]
+
 ## Usage
 ![alt text](https://raw.githubusercontent.com/junqueira/wallet-k8s/master/app/wallet-k8s.png)
+
 
 ### load minikube
 <pre>
